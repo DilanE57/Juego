@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+}
+
+button{
+    background: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border:1px solid;
+}
+
+
+button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: all .5s;
+    color: white;
+}
