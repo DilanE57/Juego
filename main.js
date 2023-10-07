@@ -1,24 +1,19 @@
-    
-function user(nombres){
-    if(nombres === "Dilan"){
-        alert("Nucita")
-    }
-    else if(nombres === "Lilian"){
-        alert("Enana Castrosa")
-    }
-    else if(nombres === "Shirley"){
-        alert("Foto carpiño?")
-    }
-    else if(nombres === "Marlyn"){
-        alert("Sebitass Guapo :)")
-    }
-    else if(nombres === "Emerson"){
-        alert("Mañana sin camisa de botones :)")
-    }
-    else{
-        alert("Funcion invalidad refresque la pagina")
-    }
+function user() {
+	const respuesta = prompt(
+		"Ingresa alguno de estos nombres: Dilan , Lilian , Shirley, Marlyn, Emerson"
+	);
+
+	if (respuesta === "Dilan" || respuesta === "dilan") {
+		alert("Tu apodo sera: nucita");
+	} else if (respuesta === "Lilian" || respuesta === "lilian") {
+		alert(" Tu apodo sera: enana castrosa");
+	} else if (respuesta === "Shirley" || respuesta === "shirley") {
+		alert("foto corpiño?");
+	} else if (respuesta === "Marlyn" || respuesta === "marlyn") {
+		alert("sebitass Guapo :)");
+	} else if (respuesta === "Emerson" || respuesta === "emerson") {
+		alert("mañana sin camisa de botones :)");
+	} else {
+		alert("Este nombre no es valido, preciona el boton nuevamente");
+	}
 }
-
-const nombres = prompt("Ingresa alguno de estos nombres, tales como: Dilan , Lilian , Shirley, Marlyn, Emerson")
-
