@@ -8,7 +8,7 @@ function user() {
 	} else if (respuesta === "Lilian" || respuesta === "lilian") {
 		alert(" Tu apodo sera: enana castrosa");
 	} else if (respuesta === "Shirley" || respuesta === "shirley") {
-		alert("foto corpiño?");
+		alert("foto carpiño?");
 	} else if (respuesta === "Marlyn" || respuesta === "marlyn") {
 		alert("sebitass Guapo :)");
 	} else if (respuesta === "Emerson" || respuesta === "emerson") {
