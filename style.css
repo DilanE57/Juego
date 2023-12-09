@@ -1,22 +1,32 @@
-body{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 80%;
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-button{
-    background: none;
-    width: 200px;
-    height: 40px;
-    border-radius: 10px;
-    border:1px solid;
+.contenedor__botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: lightblue;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
 }
 
+button {
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  background: none;
+}
 
-button:hover{
-    background-color: blueviolet;
-    cursor: pointer;
-    transition: all .5s;
-    color: white;
+button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.4s;
 }
